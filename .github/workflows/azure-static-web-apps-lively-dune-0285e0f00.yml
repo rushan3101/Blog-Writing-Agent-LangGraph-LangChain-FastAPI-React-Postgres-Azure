@@ -16,7 +16,7 @@ jobs:
     name: Build and Deploy Job
 
     env:
-      VITE_API_URL: blog-agent-backend-dbhgcqbffthfa0ac.centralindia-01.azurewebsites.net
+      VITE_API_URL: https://blog-agent-backend-dbhgcqbffthfa0ac.centralindia-01.azurewebsites.net
       
     steps:
       - uses: actions/checkout@v3
