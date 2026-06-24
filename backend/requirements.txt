@@ -1,0 +1,15 @@
+langgraph
+langgraph-checkpoint-sqlite
+langchain
+langchain-community
+langchain-openai
+langchain-google-genai
+langchain-tavily
+dotenv
+langgraph-checkpoint-postgres
+sqlalchemy
+psycopg[binary,pool] 
+fastapi 
+uvicorn 
+pydantic
+pydantic-settings

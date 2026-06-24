@@ -1,0 +1,24 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph",
+    "langgraph-checkpoint-sqlite",
+    "langchain",
+    "langchain-community",
+    "langchain-openai",
+    "langchain-google-genai",
+    "langchain-tavily",
+    "python-dotenv",
+    "langgraph-checkpoint-postgres",
+    "sqlalchemy",
+    "psycopg[binary,pool] ",
+    "fastapi ",
+    "uvicorn",
+    "pydantic",
+    "pydantic-settings",
+    "azure-storage-blob>=12.30.0",
+]
