@@ -21,4 +21,4 @@ RUN uv sync --frozen --no-dev
 COPY . .
 
 # App Service injects PORT; default to 8000 locally
-CMD ["sh", "-c", ". .venv/bin/activate && uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
+CMD ["sh", "-c", ". .venv/bin/activate && uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000} --proxy-headers --forwarded-allow-ips='*'"]
