@@ -24,7 +24,7 @@ export async function saveBlog(
 }
 
 export async function getBlogs() {
-  const response = await api.get("/blogs");
+  const response = await api.get("/blogs/");
 
   return response.data;
 }
@@ -43,10 +43,11 @@ export async function streamBlog(
   payload: GenerateBlogRequest,
   onEvent: (event: any) => void
 ) {
-
+  
+  const baseURL = import.meta.env.VITE_API_URL
   const response =
     await fetch(
-      "http://localhost:8000/blogs/generate-stream",
+      `${baseURL}/blogs/generate-stream`,
       {
         method: "POST",
 
