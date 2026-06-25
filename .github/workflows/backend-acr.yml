@@ -9,6 +9,7 @@ on:
       - "README.md"
       - "backend/README.md"
       - ".github/workflows/azure-static-web-apps-lively-dune-0285e0f00.yml"
+      - ".gitignore"
       - "src/**"
 
 jobs:

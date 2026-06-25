@@ -9,9 +9,11 @@ The project combines a **LangGraph + LangChain backend** with a **React + TypeSc
 ## Demo
 
 ### Full Demo Video
-A complete blog generation run from topic submission to final saved blog with streaming progress updates, generated images, and all result tabs.
+A complete blog generation run from topic submission to final saved blog with streaming progress updates, generated images, and all result tabs. \
 
-<video src="src/Generating_Blog.mp4" controls width="100%"></video>
+Running on Azure Web App url
+
+![Generating_Blog_Demo](src/Generating_Blog_Demo.gif)
 
 ---
 
