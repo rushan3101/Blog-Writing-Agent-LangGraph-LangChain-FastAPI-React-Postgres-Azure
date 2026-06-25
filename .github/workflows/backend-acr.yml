@@ -4,11 +4,12 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'backend/**'
-      - '.github/workflows/backend-acr.yml'
     paths-ignore:
+      - "frontend/**"
+      - "README.md"
       - "backend/README.md"
+      - ".github/workflows/azure-static-web-apps-lively-dune-0285e0f00.yml"
+      - "src/**"
 
 jobs:
   build-and-push:
