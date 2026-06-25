@@ -7,6 +7,8 @@ on:
     paths:
       - 'backend/**'
       - '.github/workflows/backend-acr.yml'
+    paths-ignore:
+      - "backend/README.md"
 
 jobs:
   build-and-push:

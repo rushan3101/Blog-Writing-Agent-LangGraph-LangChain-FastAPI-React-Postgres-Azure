@@ -4,10 +4,21 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "frontend/**"
+      - ".github/workflows/azure-static-web-apps-lively-dune-0285e0f00.yml"
+    paths-ignore:
+      - "frontend/README.md"
+      
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
       - main
+    paths:
+      - "frontend/**"
+      - ".github/workflows/azure-static-web-apps-lively-dune-0285e0f00.yml"
+    paths-ignore:
+      - "frontend/README.md"
 
 jobs:
   build_and_deploy_job:
