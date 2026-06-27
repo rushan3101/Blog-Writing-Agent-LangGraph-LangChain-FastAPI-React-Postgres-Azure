@@ -33,6 +33,7 @@ The Blog Writing Agent takes a blog topic and generates a complete blog through 
 8. **Loading past blogs from storage through the frontend**
 
 The frontend provides a streaming experience during generation and lets the user inspect the final output through dedicated tabs for blog content, plan, evidence, images, and logs.
+
 ---
 
 ## Key Features
